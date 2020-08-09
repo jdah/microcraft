@@ -1,0 +1,53 @@
+[X] Rock tools
+[X] Place sand on dirt
+[X] Grass growing
+[X] Unused farmland reverts to dirt
+[X] Crafting bench recipe
+[X] Anvil recipe
+[X] Furnace recipe
+[X] Oven recipe
+[X] Coal item
+[X] Chest recipe
+[X] Stone drops coal
+[X] Furnace recipes require coal
+[X] Ingot recipes
+[X] Oven recipes require wood
+[X] Glass
+[X] Pie
+[X] Stairs
+[X] Multiple level depths
+[X] Iron ore
+[X] Gold ore
+[X] Gem tile
+[X] Gem item
+[X] Mithril ore
+[X] Mithril ingot
+[X] Mithril tools
+[X] Hard rock
+[X] Basalt
+[X] Place rock for cobblestone
+[X] Slime item
+[X] Slime mobs with color/level variation
+[X] Zombie mobs with color/level variation
+[X] Skeleton archer mobs
+[X] Lantern
+[X] Hard rock
+[X] Level gen negative level 1, 2, 3
+[X] Level gen positive level(s?)
+[X] Lava in worldgen
+[X] Iron armor
+[X] Gold armor
+[X] Mithril armor
+[X] Score
+[X] Death screen
+[X] Win screen
+[X] Main menu
+[X] Fix item drop bug (non-stackable items, drop one being held)
+[X] Item instances should have unique IDs
+[X] Keep a stack of last equipped items, when currently equipped item is
+    removed pop ID off the stack instead of defaulting to POW GLOVE
+[X] Furnace/oven smoke particles
+[X] Cacti destroy items
+[X] Click to focus
+[X] Bossfight
+[X] Projectiles should not spawn in front of firing entities
