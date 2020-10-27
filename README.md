@@ -1,5 +1,5 @@
 # MICROCRAFT
-A Minicraft remake with some neat extras
+A Minicraft remake with some neat extras. Beat the fearsome **AIR WIZARD** to win the game!
 
 ![screenshot](screen.png)
 
@@ -12,6 +12,11 @@ Some of the neat extras:
 - Cool new air wizard powers
 - Character customization
 - and much more...
+
+## Running
+See [Releases](https://github.com/jdah/microcraft/releases)
+
+or build and run for yourself (see below) or run it out of any decent Java IDE.
 
 ## Building
 - Mac: `$ ./package.sh` creates `Microcraft-1.0.dmg` which contains runnable. MICROCRAFT.app.
