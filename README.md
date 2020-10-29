@@ -16,7 +16,7 @@ Some of the neat extras:
 ## Running
 See [Releases](https://github.com/jdah/microcraft/releases)
 
-or build and run for yourself (see below) or run it out of any decent Java IDE.
+See blow to build and run for yourself or try to run it out of any decent Java IDE.
 
 ## Building
 - Mac: `$ ./package.sh` creates `Microcraft-1.0.dmg` which contains runnable. MICROCRAFT.app.
