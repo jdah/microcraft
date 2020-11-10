@@ -18,6 +18,8 @@ See [Releases](https://github.com/jdah/microcraft/releases)
 
 See below to build and run for yourself or try to run it out of any decent Java IDE.
 
+*Please note* that in order to run the .jar file directly you will need at least the Java 14 runtime installed. 
+
 ## Building
 - Mac: `$ ./package.sh` creates `Microcraft-1.0.dmg` which contains the application MICROCRAFT.app.
 - Windows: `package.bat` creates `MICROCRAFT-1.0.exe` file which installs MICROCRAFT.exe to `C:\Program Files\MICROCRAFT`.
