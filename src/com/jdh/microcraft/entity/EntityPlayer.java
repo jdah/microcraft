@@ -239,8 +239,8 @@ public class EntityPlayer extends EntityHumanoid {
             dx++;
         }
 
-        if (!this.swimming || Global.ticks % 2 == 0) {
-            this.move(dx, dy);
+        if ((!this.swimming || Global.ticks % 2 == 0) && (dx == 0 || dy == 0)) {             
+        	this.move(dx, dy);         
         }
 
         // override entity direction, the player should be able to change their
