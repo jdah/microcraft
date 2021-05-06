@@ -9,6 +9,7 @@ import com.jdh.microcraft.item.Inventory;
 import com.jdh.microcraft.item.Item;
 import com.jdh.microcraft.item.ItemStack;
 import com.jdh.microcraft.level.Level;
+import java.util.List;
 
 public class EntityChest extends EntityFurniture {
     public Inventory inventory = new Inventory(512);
@@ -28,6 +29,12 @@ public class EntityChest extends EntityFurniture {
         }
 
         return false;
+    }
+    @Override
+    protected List<ItemStack> getDrops() {
+        List<ItemStack> chestItems = this.inventory.stacks;
+        chestItems.addAll(super.getDrops());
+        return chestItems;
     }
 
     @Override
