@@ -32,9 +32,9 @@ public class EntityChest extends EntityFurniture {
     }
     @Override
     protected List<ItemStack> getDrops() {
-        List<ItemStack> chest_items = this.inventory.stacks;
-        chest_items.addAll(super.getDrops());
-        return chest_items;
+        List<ItemStack> chestItems = this.inventory.stacks;
+        chestItems.addAll(super.getDrops());
+        return chestItems;
     }
 
     @Override
