@@ -11,7 +11,7 @@ public class WinMenu extends DialogMenu {
             "",
             "YOU WIN! ",
             "THE EVIL " + Font.Colors.RED + "AIR WIZARD",
-            "HAS BEEN " + Font.Colors.YELLOW + "BESTED.",
+            "HAS BEEN " + Font.Colors.YELLOW + "BEATED.",
             "SCORE: " + Font.Colors.YELLOW + Global.game.score,
         }, 22, 10, () -> Global.setState(Global.StateType.MENU));
     }
